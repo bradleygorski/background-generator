@@ -3,7 +3,7 @@ import os
 execution_path=os.getcwd()
 
 prediction = ImagePrediction()
-prediction.setModelTypeAsDenseNet()
+prediction.setModelTypeAsSqueezeNet()
 prediction.setModelPath(os.path.join(execution_path, "DenseNet-BC-121-32.h5"))
 prediction.loadModel()
 
